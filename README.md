@@ -450,7 +450,7 @@ log::expressions::is_in_range()** ожидает атрибут в качест�
 
 `Пример 62.8. Несколько средств ведения журнала, фронт эндов и обратно концов`
 <a name="example628"></a>
-``` с++
+``` c++
 #include <boost/log/common.hpp>
 #include <boost/log/sinks.hpp>
 #include <boost/log/sources/severity_logger.hpp>
@@ -531,7 +531,7 @@ int main()
 
 `Пример 62,9. Обработка исключений централизованно`
 <a name="example629"></a>
-``` с++
+``` c++
 #include <boost/log/common.hpp>
 #include <boost/log/sinks.hpp>
 #include <boost/log/sources/logger.hpp>
@@ -589,7 +589,7 @@ Boost.Log предоставляет возможность для обрабо�
 
 `Пример 62.10. Макрос, чтобы определить глобальные средства ведения журнала`
 <a name="example6210"></a>
-``` с++
+``` c++
 #include <boost/log/common.hpp>
 #include <boost/log/sinks.hpp>
 #include <boost/log/sources/logger.hpp>
